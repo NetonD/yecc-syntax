@@ -1,0 +1,25 @@
+{
+    "name": "yecc-syntax",
+    "displayName": "yecc-syntax",
+    "description": "Syntax highlight for yecc",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "erlang",
+            "aliases": ["Erlang", "erlang"],
+            "extensions": [".yrl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "erlang",
+            "scopeName": "source.erlang",
+            "path": "./syntaxes/erlang.tmLanguage.json"
+        }]
+    }
+}

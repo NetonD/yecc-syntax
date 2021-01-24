@@ -1,5 +1,15 @@
 {
+    "publisher": "almirneto",
+    "license": "Apache-2.0",
     "name": "yecc-syntax",
+    "author": {
+        "name": "Almir Neto"
+    },
+    "homepage": "https://github.com/NetonD/yecc-syntax/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NetonD/yecc-syntax/"
+    },
     "displayName": "yecc-syntax",
     "description": "Syntax highlight for yecc",
     "version": "0.0.1",
